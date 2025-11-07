@@ -112,156 +112,160 @@
           </div>
 
           <!-- amount -->
-          <fieldset id="amount">
-            <legend>
-              <h3>Hvor mange Zombier så du?</h3>
-            </legend>
-            <div class="form-group">
-              <!-- Section for selecting the number of zombies observed -->
-
-              <label for="zombie-count-1">
-                <input
-                  type="radio"
-                  id="zombie-count-1"
-                  name="antal"
-                  value="1"
-                  required
-                />
-                1
-              </label>
-
-              <label for="zombie-count-2-5">
-                <input
-                  type="radio"
-                  id="zombie-count-2-4"
-                  name="antal"
-                  value="2-4"
-                  required
-                />
-                2-5
-              </label>
-
-              <label for="zombie-count-5-10">
-                <input
-                  type="radio"
-                  id="zombie-count-5-10"
-                  name="antal"
-                  value="5-10"
-                  required
-                />
-                5-10
-              </label>
-
-              <label for="zombie-count-flere-end-ti">
-                <input
-                  type="radio"
-                  id="zombie-count-many"
-                  name="antal"
-                  value="Flere end 10"
-                  required
-                />
-                Flere end 10
-              </label>
-
-              <label for="zombie-count-uncountable">
-                <input
-                  type="radio"
-                  id="zombie-count-uncountable"
-                  name="antal"
-                  value="Så mange at jeg ikke kunne tælle dem"
-                  required
-                />
-                Så mange at jeg ikke kunne tælle dem
-              </label>
-            </div>
-          </fieldset>
+          <div class="form-group">
+            <fieldset id="amount">
+              <legend>
+                <h3>Hvor mange Zombier så du?</h3>
+              </legend>
+              <div>
+                <!-- Section for selecting the number of zombies observed -->
+  
+                <label for="zombie-count-1">
+                  <input
+                    type="radio"
+                    id="zombie-count-1"
+                    name="antal"
+                    value="1"
+                    required
+                  />
+                  1
+                </label>
+  
+                <label for="zombie-count-2-5">
+                  <input
+                    type="radio"
+                    id="zombie-count-2-4"
+                    name="antal"
+                    value="2-4"
+                    required
+                  />
+                  2-5
+                </label>
+  
+                <label for="zombie-count-5-10">
+                  <input
+                    type="radio"
+                    id="zombie-count-5-10"
+                    name="antal"
+                    value="5-10"
+                    required
+                  />
+                  5-10
+                </label>
+  
+                <label for="zombie-count-flere-end-ti">
+                  <input
+                    type="radio"
+                    id="zombie-count-many"
+                    name="antal"
+                    value="Flere end 10"
+                    required
+                  />
+                  Flere end 10
+                </label>
+  
+                <label for="zombie-count-uncountable">
+                  <input
+                    type="radio"
+                    id="zombie-count-uncountable"
+                    name="antal"
+                    value="Så mange at jeg ikke kunne tælle dem"
+                    required
+                  />
+                  Så mange at jeg ikke kunne tælle dem
+                </label>
+              </div>
+            </fieldset>
+          </div>
           <!-- Adfærd -->
-          <fieldset id="behavior">
-            <legend><h3>Adfærd?</h3></legend>
-            <p>Vælg gerne flere</p>
-            <div class="form-group">
-              <label for="behavior1">
-                <input
-                  type="checkbox"
-                  id="behavior1"
-                  name="behavior"
-                  value="Slæbende/ukoordineret gang"
-                />
-                Slæbende/ukoordineret gang
-              </label>
-
-              <label for="behavior2">
-                <input
-                  type="checkbox"
-                  id="behavior2"
-                  name="behavior"
-                  value="Forsøgte at bide eller angribe"
-                />
-                Forsøgte at bide eller angribe
-              </label>
-
-              <label for="behavior3">
-                <input
-                  type="checkbox"
-                  id="behavior3"
-                  name="behavior"
-                  value="Udstødte lyde (som fx grynt eller støn)"
-                />
-                Udstødte lyde (som fx grynt eller støn)
-              </label>
-
-              <label for="behavior4">
-                <input
-                  type="checkbox"
-                  id="behavior4"
-                  name="behavior"
-                  value="Gik direkte efter mennesker uden opfordring"
-                />
-                Gik direkte efter mennesker uden opfordring
-              </label>
-
-              <label for="behavior5">
-                <input
-                  type="checkbox"
-                  id="behavior5"
-                  name="behavior"
-                  value="Stirrede tomt uden at blinke"
-                />
-                Stirrede tomt uden at blinke
-              </label>
-
-              <label for="behavior6">
-                <input
-                  type="checkbox"
-                  id="behavior6"
-                  name="behavior"
-                  value="Viste tegn på at huske tidligere rutiner (f.eks. stiller sig i kø)"
-                />
-                Viste tegn på at huske tidligere rutiner (f.eks. stiller sig i
-                kø)
-              </label>
-
-              <label for="behavior7">
-                <input
-                  type="checkbox"
-                  id="behavior7"
-                  name="behavior"
-                  value="Udviste flokadfærd (kom i gruppe, fulgte andre zombier)"
-                />
-                Udviste flokadfærd (kom i gruppe, fulgte andre zombier)
-              </label>
-
-              <label for="behavior8">
-                <input
-                  type="checkbox"
-                  id="behavior8"
-                  name="behavior"
-                  value="Ingen reaktion på smerte eller skade"
-                />
-                Ingen reaktion på smerte eller skade
-              </label>
-            </div>
-          </fieldset>
+          <div class="form-group">
+            <fieldset id="behavior">
+              <legend><h3>Adfærd?</h3></legend>
+              <p>Vælg gerne flere</p>
+              <div>
+                <label for="behavior1">
+                  <input
+                    type="checkbox"
+                    id="behavior1"
+                    name="behavior"
+                    value="Slæbende/ukoordineret gang"
+                  />
+                  Slæbende/ukoordineret gang
+                </label>
+  
+                <label for="behavior2">
+                  <input
+                    type="checkbox"
+                    id="behavior2"
+                    name="behavior"
+                    value="Forsøgte at bide eller angribe"
+                  />
+                  Forsøgte at bide eller angribe
+                </label>
+  
+                <label for="behavior3">
+                  <input
+                    type="checkbox"
+                    id="behavior3"
+                    name="behavior"
+                    value="Udstødte lyde (som fx grynt eller støn)"
+                  />
+                  Udstødte lyde (som fx grynt eller støn)
+                </label>
+  
+                <label for="behavior4">
+                  <input
+                    type="checkbox"
+                    id="behavior4"
+                    name="behavior"
+                    value="Gik direkte efter mennesker uden opfordring"
+                  />
+                  Gik direkte efter mennesker uden opfordring
+                </label>
+  
+                <label for="behavior5">
+                  <input
+                    type="checkbox"
+                    id="behavior5"
+                    name="behavior"
+                    value="Stirrede tomt uden at blinke"
+                  />
+                  Stirrede tomt uden at blinke
+                </label>
+  
+                <label for="behavior6">
+                  <input
+                    type="checkbox"
+                    id="behavior6"
+                    name="behavior"
+                    value="Viste tegn på at huske tidligere rutiner (f.eks. stiller sig i kø)"
+                  />
+                  Viste tegn på at huske tidligere rutiner (f.eks. stiller sig i
+                  kø)
+                </label>
+  
+                <label for="behavior7">
+                  <input
+                    type="checkbox"
+                    id="behavior7"
+                    name="behavior"
+                    value="Udviste flokadfærd (kom i gruppe, fulgte andre zombier)"
+                  />
+                  Udviste flokadfærd (kom i gruppe, fulgte andre zombier)
+                </label>
+  
+                <label for="behavior8">
+                  <input
+                    type="checkbox"
+                    id="behavior8"
+                    name="behavior"
+                    value="Ingen reaktion på smerte eller skade"
+                  />
+                  Ingen reaktion på smerte eller skade
+                </label>
+              </div>
+            </fieldset>
+          </div class="form-group">
           <!-- Farlighed (range) -->
           <!-- <fieldset id="danger">
             <legend>Farlighed?</legend>
@@ -378,5 +382,60 @@
     </footer>
     <script src="js/burger.js"></script>
     <script src="js/register.js"></script>
+    <script>
+      const form = document.querySelector("#webform");
+
+      const summaryArticle = document.querySelector("#form-summary article");
+
+      function cancelPopup(event) {
+        event.preventDefault();
+        const firstInvalid = form.querySelector(":invalid");
+        if (firstInvalid) firstInvalid.focus();
+      }
+
+      function handleSubmit(event) {
+        event.preventDefault();
+
+        // 1. Saml værdierne fra formularen
+        const formData = new FormData(form);
+        const street = formData.get("location-street");
+        const number = formData.get("location-number");
+        const fullAddress = `${street} ${number}`;
+        const zipcode = formData.get("location_zipcode");
+        const city = formData.get("location_city");
+        const zipcodeCity = `${zipcode} ${city}`;
+        const type = formData.get("zombie-type");
+        const amount = formData.get("antal");
+        const behaviors = formData.getAll("behavior").join(", ");
+        const description = formData.get("beskrivelse");
+        const fullName = formData.get("name");
+        const email = formData.get("email");
+        const area = formData.get("area-code");
+        const phone = formData.get("telefon");
+        const phoneFull = `${area} ${phone}`;
+
+        // 2. Vis værdierne i opsummeringen
+
+        summaryArticle.innerHTML = `
+          <h3>Din indberetning</h3>
+          <ul>
+            <li><strong>Adresse:</strong> ${fullAddress}</li>
+            <li><strong>By:</strong> ${zipcodeCity}</li>
+            <li><strong>Type:</strong> ${type}</li>
+            <li><strong>Antal:</strong> ${amount}</li>
+            <li><strong>Adfærd:</strong> ${behaviors}</li>
+            <li><strong>Beskrivelse:</strong> ${description}</li>
+            <li><strong>Navn:</strong> ${fullName}</li>
+            <li><strong>Email:</strong> ${email}</li>
+            <li><strong>Telefon:</strong> ${phoneFull}</li>
+          </ul>
+        `;
+
+        form.reset();
+      }
+
+      form.addEventListener("invalid", cancelPopup, true);
+      form.addEventListener("submit", handleSubmit);
+    </script>
   </body>
 </html>
