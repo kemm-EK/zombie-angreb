@@ -111,8 +111,10 @@ button:active {
   display: none;
 }
 .form-group:has(:required) {
-  label::after {
-    content: " *";
+  legend h3::after,
+  label:only-of-type::after {
+    margin-inline-start: 0.25ch;
+    content: "*";
     color: red;
   }
 }
